@@ -10,39 +10,24 @@ header {
 }
 
 header img{
+  width: 17%;
   display: inline-block;
-  width: 8%;
+  margin: 2%;
 }
 
-h4{
-  position: absolute;
-  display: inline-block;
-  color: white;
-  margin-left: 2%;
-  top: 5%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
+
 
 nav{
-  display: inline-block;
-  float: right;
-  padding-top: 3%;
-  padding-right: 5%;
+  padding-top: 7%;
+  padding-right: 3%;
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
   background-color: #0c0c0c;
-  width: 70%;
   font-family: Arial, Helvetica, sans-serif;
  }
 
- .logo{
-    color: #f4f5f9;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 22px;
- }
+
 
  .nav-links{
     display: flex;
@@ -76,6 +61,8 @@ nav{
     transition: all 0.3s ease;
  }
 
+
+
  @media screen and (max-width:1024px){
     .nav-links{
         width: 40%;
@@ -89,11 +76,7 @@ nav{
     h4{
       display: none;
     }
-    header img{
-      width: 18%;
-      display: inline-block;
 
-    }
 
     nav{
       width: 50%;
@@ -159,4 +142,48 @@ nav{
 
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
+}
+
+@media screen and (min-width:1025px){
+  header img{
+    display: inline-block;
+    width: 5%;
+    margin: 1%;
+  }
+
+  h4{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    top: 6%;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  nav{
+    display: inline-block;
+    float: right;
+    padding-top: 3%;
+    width: 70%;
+  }
+
+  .nav-links li a::after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 50%;
+
+    /* position: absolute; */
+    background: #f8d3d7;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+  .nav-links li a:hover:after {
+  width: 100%;
+  left: 0;
+  }
 }
