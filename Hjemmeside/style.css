@@ -15,17 +15,19 @@ header img{
 }
 
 h4{
-  float: right;
-}
-
-element.style {
-    background-color: #0c0c0c;
+  position: absolute;
+  display: inline-block;
+  color: white;
+  margin-left: 2%;
+  top: 5%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 nav{
   display: inline-block;
   float: right;
-  padding-top: 5%;
+  padding-top: 3%;
   padding-right: 5%;
   justify-content: space-around;
   align-items: center;
