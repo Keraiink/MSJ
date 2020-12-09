@@ -77,10 +77,21 @@ nav{
     }
 
     .nav-links li{
-        opacity: 100;
+        opacity: 0;
+    }
+    .nav-links li a:hover{
+      color: grey;
     }
     .burger{
         display: block;
+    }
+    .burger div {
+      width: 25px;
+      height: 3px;
+      background-color: white;
+      margin: 5px;
+      transition: all 0.3s ease;
+      border-radius: 20%;
     }
  }
 
