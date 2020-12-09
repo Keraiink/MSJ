@@ -4,14 +4,35 @@
     box-sizing: border-box;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 10vh;
+header {
+    display: block;
     background-color: #0c0c0c;
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+}
+
+header img{
+  display: inline-block;
+  width: 8%;
+}
+
+h4{
+  float: right;
+}
+
+element.style {
+    background-color: #0c0c0c;
+}
+
+nav{
+  display: inline-block;
+  float: right;
+  padding-top: 5%;
+  padding-right: 5%;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background-color: #0c0c0c;
+  width: 70%;
+  font-family: Arial, Helvetica, sans-serif;
  }
 
  .logo{
@@ -23,8 +44,9 @@ nav{
 
  .nav-links{
     display: flex;
+    float: right;
     justify-content: space-around;
-    width: 50%;
+    width: 80%;
  }
 
  .nav-links li{
@@ -66,7 +88,15 @@ nav{
       display: none;
     }
     header img{
-      
+      width: 18%;
+      display: inline-block;
+
+    }
+
+    nav{
+      width: 50%;
+      display: inline-block;
+      float: right;
     }
     .nav-links{
             position: fixed;
@@ -90,6 +120,7 @@ nav{
     }
     .burger{
         display: block;
+        float: right;
     }
     .burger div {
       width: 25px;
