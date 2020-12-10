@@ -88,7 +88,7 @@ nav{
     body{
         overflow-x: hidden;
     }
-    #forside h1{
+    h1{
       display: none;
     }
 
@@ -197,7 +197,7 @@ nav{
     margin: 1%;
   }
 
-  #forside h1{
+  h1{
     display: inline-block;
     color: white;
     position: absolute;
@@ -237,7 +237,7 @@ nav{
     background-size: cover;
   }
 
-  #forside main{
+  #forside{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
