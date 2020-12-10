@@ -125,12 +125,14 @@ nav{
 
  div.Halskæde{
 background-image: url('./Billeder/1 billede.png');
- width: 104vw;
- height: 90vh;
- padding: 8px;
+ width: 100vw;
+ height: 84vh;
+ padding: 15px;
  background-size: contain;
  background-repeat: no-repeat;
  }
+
+
 
 @keyframes navLinkFade{
     from{
