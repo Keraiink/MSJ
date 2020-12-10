@@ -141,8 +141,11 @@ nav{
  }
 
  #Halskæde, #Mathias, #Pige{
-   width: 100vw;
    height: 563px;
+ }
+
+ #Halskæde, #Mathias, #Pige, #Galleri img{
+   width: 100vw;
    padding: 25px;
    background-size: contain;
    background-repeat: no-repeat;
@@ -237,7 +240,22 @@ nav{
     background-size: cover;
   }
 
-  #forside{
+  #Galleri img{
+    width: 30%;
+  }
+
+  #Galleri{
+    background-image: url(./Billeder/Background.jpg);
+    justify-content: center;
+  }
+
+#Galleri #billeder{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+  #forside, #Galleri{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
