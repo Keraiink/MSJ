@@ -245,6 +245,8 @@ nav{
   }
 
   #Galleri{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-image: url(./Billeder/Background.jpg);
     justify-content: center;
   }
