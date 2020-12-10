@@ -160,6 +160,13 @@ nav{
      background-image: url('./Billeder/3 billede.jpg');
  }
 
+ footer {
+   text-align: center;
+   padding: 3px;
+   background-color: #0c0c0c;
+   color: white;
+ }
+
 @keyframes navLinkFade{
     from{
         opacity: 0;
@@ -235,4 +242,5 @@ nav{
     flex-direction: row;
     flex-wrap: wrap;
   }
+
 }
