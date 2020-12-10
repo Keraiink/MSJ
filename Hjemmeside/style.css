@@ -61,6 +61,12 @@ nav{
     transition: all 0.3s ease;
  }
 
+ #forside section{
+   text-align: center;
+   font-size: 24px;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
 
 
  @media screen and (max-width:1024px){
@@ -73,7 +79,7 @@ nav{
     body{
         overflow-x: hidden;
     }
-    h4{
+    #forside h1{
       display: none;
     }
 
@@ -120,35 +126,25 @@ nav{
  .nav-active{
     transform: translateX(0%);
  }
- div.Halskæde {
+
+ #Halskæde, #Mathias, #Pige{
+   width: 100vw;
+   height: 563px;
+   padding: 15px;
+   background-size: contain;
+   background-repeat: no-repeat;
+ }
+ #Halskæde {
      background-image: url('./Billeder/1 billede.png');
-     width: 100vw;
-     height: 85vh;
-     padding: 15px;
-     background-size: contain;
-     background-repeat: no-repeat;
+
  }
 
- div.Mathias {
+ #Mathias {
      background-image: url('./Billeder/2 billede.jpg');
-     width: 100vw;
-     height: 85vh;
-     padding: 15px;
-     background-size: contain;
-     background-repeat: no-repeat;
-     font-size: 24px;
-     font-family: Arial, Helvetica, sans-serif;
-     
-
  }
 
- div.Pige {
+ #Pige {
      background-image: url('./Billeder/3 billede.jpg');
-     width: 100vw;
-     height: 85vh;
-     padding: 15px;
-     background-size: contain;
-     background-repeat: no-repeat;
  }
 
 @keyframes navLinkFade{
@@ -181,7 +177,7 @@ nav{
     margin: 1%;
   }
 
-  h4{
+  #forside h1{
     display: inline-block;
     color: white;
     position: absolute;
