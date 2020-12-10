@@ -64,9 +64,11 @@ nav{
 
 
  @media screen and (max-width:1024px){
+
     .nav-links{
         width: 40%;
      }
+
  }
 
  @media screen and (max-width:768px){
@@ -119,6 +121,15 @@ nav{
 
  .nav-active{
     transform: translateX(0%);
+ }
+
+ div.Halskæde{
+background-image: url('./Billeder/1 billede.png');
+ width: 104vw;
+ height: 90vh;
+ padding: 8px;
+ background-size: contain;
+ background-repeat: no-repeat;
  }
 
 @keyframes navLinkFade{
