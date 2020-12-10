@@ -64,11 +64,9 @@ nav{
 
 
  @media screen and (max-width:1024px){
-
     .nav-links{
         width: 40%;
      }
-
  }
 
  @media screen and (max-width:768px){
@@ -122,32 +120,35 @@ nav{
  .nav-active{
     transform: translateX(0%);
  }
-
- div.Halskæde{
-background-image: url('./Billeder/1 billede.png');
- width: 100vw;
- height: 85vh;
- padding: 15px;
- background-size: contain;
- background-repeat: no-repeat;
+ div.Halskæde {
+     background-image: url('./Billeder/1 billede.png');
+     width: 100vw;
+     height: 85vh;
+     padding: 15px;
+     background-size: contain;
+     background-repeat: no-repeat;
  }
 
- div.Mathias{
- background-image: url('./Billeder/2 billede.jpg');
- width: 100vw;
- height: 85vh;
- padding: 15px;
- background-size: contain;
- background-repeat: no-repeat;
+ div.Mathias {
+     background-image: url('./Billeder/2 billede.jpg');
+     width: 100vw;
+     height: 85vh;
+     padding: 15px;
+     background-size: contain;
+     background-repeat: no-repeat;
+     font-size: 24px;
+     font-family: Arial, Helvetica, sans-serif;
+     
+
  }
 
- div.Pige{
- background-image: url('./Billeder/3 billede.jpg');
- width: 100vw;
- height: 85vh;
- padding: 15px;
- background-size: contain;
- background-repeat: no-repeat;
+ div.Pige {
+     background-image: url('./Billeder/3 billede.jpg');
+     width: 100vw;
+     height: 85vh;
+     padding: 15px;
+     background-size: contain;
+     background-repeat: no-repeat;
  }
 
 @keyframes navLinkFade{
