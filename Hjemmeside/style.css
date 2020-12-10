@@ -126,13 +126,29 @@ nav{
  div.Halskæde{
 background-image: url('./Billeder/1 billede.png');
  width: 100vw;
- height: 84vh;
+ height: 85vh;
  padding: 15px;
  background-size: contain;
  background-repeat: no-repeat;
  }
 
+ div.Mathias{
+ background-image: url('./Billeder/2 billede.jpg');
+ width: 100vw;
+ height: 85vh;
+ padding: 15px;
+ background-size: contain;
+ background-repeat: no-repeat;
+ }
 
+ div.Pige{
+ background-image: url('./Billeder/3 billede.jpg');
+ width: 100vw;
+ height: 85vh;
+ padding: 15px;
+ background-size: contain;
+ background-repeat: no-repeat;
+ }
 
 @keyframes navLinkFade{
     from{
