@@ -81,14 +81,10 @@ nav{
     .nav-links{
         width: 40%;
      }
+
  }
 
  @media screen and (max-width:768px){
-
-   #VVUVIVIU{
-     position: absolute;
-     TOP
-   }
     body{
         overflow-x: hidden;
     }
@@ -228,5 +224,15 @@ nav{
   .nav-links li a:hover:after {
   width: 100%;
   left: 0;
+  }
+  #Halskæde, #Mathias, #Pige{
+    width: 33.33%;
+    background-size: cover;
+  }
+
+  #forside main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
